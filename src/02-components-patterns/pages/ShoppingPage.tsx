@@ -12,7 +12,7 @@ export const ShoppingPage = () => {
       <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
         {productos.map((product) => (
           <ProductCard
-            // onChange={onProductCountChange}
+            onChange={onProductCountChange}
             key={product.id}
             className="bg-dark"
             product={product}
